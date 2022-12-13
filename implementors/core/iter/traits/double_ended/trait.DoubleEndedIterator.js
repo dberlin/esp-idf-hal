@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"heapless":[["impl&lt;'a, T, const N:&nbsp;usize&gt; DoubleEndedIterator for <a class=\"struct\" href=\"heapless/spsc/struct.Iter.html\" title=\"struct heapless::spsc::Iter\">Iter</a>&lt;'a, T, N&gt;"],["impl&lt;'a, T, const N:&nbsp;usize&gt; DoubleEndedIterator for <a class=\"struct\" href=\"heapless/spsc/struct.IterMut.html\" title=\"struct heapless::spsc::IterMut\">IterMut</a>&lt;'a, T, N&gt;"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
