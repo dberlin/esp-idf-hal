@@ -18,6 +18,8 @@ default = ["std", "alloc", "esp-idf-sys"]
 std = ["alloc", "esp-idf-sys/std", "edge-executor?/std"]
 alloc = []
 riscv-ulp-hal = []
+embassy-sync = [ "dep:embassy-sync", "critical-section" ]
+critical-section = [ "dep:critical-section" ]
 
 [dependencies]
 nb = "1.0.0"
